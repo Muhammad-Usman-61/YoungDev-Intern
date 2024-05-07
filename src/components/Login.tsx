@@ -4,8 +4,8 @@ const Login = () => {
       <p className="mb-6 text-xl font-semibold text-white text-center">
         User System: Develop a simple login page with user name and password.
       </p>
-      <div className="flex lg:flex-row flex-col">
-        <div className="w-full bg-white order-2 lg:order-1 rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+      <div className="flex lg:flex-row flex-col items-center">
+        <div className="w-full h-fit bg-white order-2 lg:order-1 rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
             <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
               Sign in to your account
@@ -46,7 +46,7 @@ const Login = () => {
               <div className="flex items-center justify-between float-right">
                 <a
                   href="#"
-                  className="text-sm font-medium hover:underline text-white"
+                  className="text-sm font-medium hover:underline text-gray-400"
                 >
                   Forgot password?
                 </a>
@@ -57,12 +57,9 @@ const Login = () => {
               >
                 Sign in
               </button>
-              <p className="text-sm font-light text-gray-500 dark:text-gray-400">
+              <p className="text-sm font-light text-gray-400">
                 Don't have an account yet?
-                <a
-                  href="#"
-                  className="font-medium text-primary-600 ml-2 hover:underline dark:text-primary-500"
-                >
+                <a href="#" className="font-medium ml-2 hover:underline">
                   Sign up
                 </a>
               </p>
@@ -72,7 +69,7 @@ const Login = () => {
         <div className="flex order-1 lg:order-2">
           <img
             src="src\assets\Mobile login-bro.svg"
-            className="w-[25rem] lg:w-[35rem]"
+            className="w-[44rem]"
             alt="Flowbite Logo"
           />
         </div>
