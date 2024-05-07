@@ -1,16 +1,5 @@
-import { Link } from "react-router-dom";
-
 const NavBar = () => {
-  const tasks = [
-    {
-      name: "Home",
-      url: "/",
-    },
-    {
-      name: "Login",
-      url: "/login",
-    },
-  ];
+  const tasks = ["Task 1", "Task 2", "Task 3", "Task 4"];
   const myData = [
     {
       name: "Linkedin",
@@ -89,14 +78,14 @@ const NavBar = () => {
           >
             <ul className="flex font-medium gap-4">
               {tasks.map((task) => (
-                <li key={task.name}>
-                  <Link
-                    to="#"
+                <li key={task}>
+                  <a
+                    href="#"
                     className="px-5 py-2 text-white rounded bg-gray-900 hover:bg-gray-700"
                     aria-current="page"
                   >
-                    {task.name}
-                  </Link>
+                    {task}
+                  </a>
                 </li>
               ))}
             </ul>
