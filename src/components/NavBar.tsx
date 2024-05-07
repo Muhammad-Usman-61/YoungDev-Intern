@@ -1,5 +1,12 @@
-const NavBar = () => {
+import { useState } from "react";
+
+interface Props {
+  currentTask: (task: string) => void;
+}
+
+const NavBar = ({ currentTask }: Props) => {
   const tasks = ["Task 1", "Task 2", "Task 3", "Task 4"];
+  const [task1, setTask] = useState("Task 1");
   const myData = [
     {
       name: "Linkedin",
@@ -32,6 +39,7 @@ const NavBar = () => {
               <a
                 href={data.url}
                 key={data.name}
+                target="_blank"
                 className="px-5 py-2 text-white rounded bg-gray-900 hover:bg-gray-700 lg:block hidden"
               >
                 {data.name}
@@ -79,13 +87,20 @@ const NavBar = () => {
             <ul className="flex font-medium gap-4">
               {tasks.map((task) => (
                 <li key={task}>
-                  <a
-                    href="#"
-                    className="px-5 py-2 text-white rounded bg-gray-900 hover:bg-gray-700"
+                  <div
+                    className={
+                      task1 === task
+                        ? "px-5 py-2 text-white rounded bg-gray-700 hover:bg-gray-700 cursor-pointer"
+                        : "px-5 py-2 text-white rounded bg-gray-900 hover:bg-gray-700 cursor-pointer"
+                    }
                     aria-current="page"
+                    onClick={() => {
+                      currentTask(task);
+                      setTask(task);
+                    }}
                   >
                     {task}
-                  </a>
+                  </div>
                 </li>
               ))}
             </ul>
