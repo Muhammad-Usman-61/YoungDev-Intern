@@ -5,7 +5,7 @@ const Registration = () => {
         <p className="mb-6 text-xl font-semibold text-white text-center">
           User Registration Form: Create a user-friendly registration form.
         </p>
-        <div className="flex lg:flex-row flex-col items-center">
+        <div className="flex sm:flex-row flex-col items-center">
           <div className="flex">
             <img
               src="src\assets\Mobile login-bro.svg"
