@@ -1,3 +1,4 @@
+import RegSvg from "../assets/Mobile login-bro.svg";
 const Registration = () => {
   return (
     <section className="bg-gray-50 dark:bg-gray-900">
@@ -7,11 +8,7 @@ const Registration = () => {
         </p>
         <div className="flex sm:flex-row flex-col items-center">
           <div className="flex">
-            <img
-              src="src\assets\Mobile login-bro.svg"
-              className="w-[44rem]"
-              alt="Flowbite Logo"
-            />
+            <img src={RegSvg} className="w-[44rem]" alt="Flowbite Logo" />
           </div>
           <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
@@ -98,7 +95,7 @@ const Registration = () => {
                       htmlFor="terms"
                       className="font-light text-gray-500 dark:text-gray-300"
                     >
-                      I accept the{" "}
+                      I accept the
                       <a
                         className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                         href="#"

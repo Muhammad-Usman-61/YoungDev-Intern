@@ -1,3 +1,4 @@
+import loginSvg from "../assets/Mobile login-bro.svg";
 const Login = () => {
   return (
     <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
@@ -67,11 +68,7 @@ const Login = () => {
           </div>
         </div>
         <div className="flex order-1 lg:order-2">
-          <img
-            src="src/assets/Mobile login-bro.svg"
-            className="w-[44rem]"
-            alt="Logo"
-          />
+          <img src={loginSvg} className="w-[44rem]" alt="Logo" />
         </div>
       </div>
     </div>
