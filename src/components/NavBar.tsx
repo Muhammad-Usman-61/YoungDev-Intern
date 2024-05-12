@@ -5,7 +5,7 @@ interface Props {
 }
 
 const NavBar = ({ currentTask }: Props) => {
-  const tasks = ["Task 1", "Task 2", "Task 3", "Task 4"];
+  const tasks = ["Task 1", "Task 2", "Task 3"];
   const [task1, setTask] = useState("Task 1");
   const myData = [
     {

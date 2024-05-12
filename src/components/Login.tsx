@@ -68,7 +68,7 @@ const Login = () => {
         </div>
         <div className="flex order-1 lg:order-2">
           <img
-            src="src\assets\Mobile login-bro.svg"
+            src="src/assets/Mobile login-bro.svg"
             className="w-[44rem]"
             alt="Flowbite Logo"
           />
