@@ -10,12 +10,8 @@ const NavBar = ({ currentTask }: Props) => {
   const [task1, setTask] = useState("Task 1");
   const myData = [
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/muhammad-usman-794205247/",
-    },
-    {
       name: "Github",
-      url: "https://github.com/Muhammad-Usman-61",
+      url: "https://github.com/Muhammad-Usman-61/YoungDev-Intern",
     },
   ];
   return (
@@ -23,7 +19,7 @@ const NavBar = ({ currentTask }: Props) => {
       <nav className="border-gray-200 px-4 lg:px-6 py-2.5 bg-gray-800">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <a
-            href="https://muhammad-usman061.vercel.app/"
+            href="https://github.com/Muhammad-Usman-61/YoungDev-Intern"
             className="flex items-center"
           >
             <img src={logo} className="mr-3 h-12" alt="Logo" />

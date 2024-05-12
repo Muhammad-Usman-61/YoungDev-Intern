@@ -6,13 +6,22 @@ const Task3 = () => {
         captivates visitors and directs them to explore the website's offerings,
         add header footer and also add contact info with nav-bar at the header.
       </p>
-      <a
-        href="https://muhammad-usman061.vercel.app/"
-        target="_blank"
-        className="px-5 py-2 text-white rounded bg-gray-700 hover:bg-gray-800 cursor-pointer"
-      >
-        Click here to visit this task
-      </a>
+      <div className="flex gap-2 max-sm:flex-col text-center">
+        <a
+          href="https://muhammad-usman061.vercel.app/"
+          target="_blank"
+          className="px-5 py-2 text-white rounded bg-gray-700 hover:bg-gray-800 cursor-pointer"
+        >
+          Click here to visit this task
+        </a>
+        <a
+          href="https://muhammad-usman061.vercel.app/"
+          target="_blank"
+          className="px-5 py-2 text-white rounded bg-gray-700 hover:bg-gray-800 cursor-pointer"
+        >
+          Github Repo
+        </a>
+      </div>
     </div>
   );
 };
