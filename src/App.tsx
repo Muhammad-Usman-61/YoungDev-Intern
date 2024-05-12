@@ -11,6 +11,9 @@ function App() {
   return (
     <>
       <NavBar currentTask={(selectedTask) => setTask(selectedTask)} />
+      <p className="my-2 text-white text-center">
+        Tech stack: React, TypeScript, Tailwind CSS and Vite.
+      </p>
       {task === "Task 1" ? <Login /> : null}
       {task === "Task 2" ? <Registration /> : null}
       {task === "Task 3" ? <Task3 /> : null}

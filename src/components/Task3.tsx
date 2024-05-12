@@ -8,7 +8,7 @@ const Task3 = () => {
       </p>
       <div className="flex gap-2 max-sm:flex-col text-center">
         <a
-          href="https://muhammad-usman061.vercel.app/"
+          href="https://fyp-web-sigma.vercel.app/"
           target="_blank"
           className="px-5 py-2 text-white rounded bg-gray-700 hover:bg-gray-800 cursor-pointer"
         >
