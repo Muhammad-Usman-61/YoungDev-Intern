@@ -25,11 +25,7 @@ const NavBar = ({ currentTask }: Props) => {
             href="https://muhammad-usman061.vercel.app/"
             className="flex items-center"
           >
-            <img
-              src="src\assets\logo.png"
-              className="mr-3 h-12"
-              alt="Flowbite Logo"
-            />
+            <img src="src/assets/logo.png" className="mr-3 h-12" alt="Logo" />
             <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
               YoungDev Inters
             </span>

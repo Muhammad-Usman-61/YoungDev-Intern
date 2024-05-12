@@ -70,7 +70,7 @@ const Login = () => {
           <img
             src="src/assets/Mobile login-bro.svg"
             className="w-[44rem]"
-            alt="Flowbite Logo"
+            alt="Logo"
           />
         </div>
       </div>
